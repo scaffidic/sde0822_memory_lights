@@ -21,11 +21,14 @@ main {
 
 .board_container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.board_img_container {
+.board_tile{
     height: 250px;
     width: 250px;
     background-color: #616E6A;
@@ -39,7 +42,3 @@ img {
     margin: 20%;
 }
 
-.row {
-display: flex;
-justify-content: center;
-}
